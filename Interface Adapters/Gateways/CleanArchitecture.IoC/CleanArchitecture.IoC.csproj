@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Application Business Rules\CleanArchitecture.UseCases\CleanArchitecture.UseCases.csproj" />
-    <ProjectReference Include="..\CleanArchitecture.Presenters\CleanArchitecture.Presenters.csproj" />
+    <ProjectReference Include="..\..\..\Application Business Rules\CleanArchitecture.UseCases\CleanArchitecture.UseCases.csproj" />
+    <ProjectReference Include="..\..\Presenters\CleanArchitecture.Presenters\CleanArchitecture.Presenters.csproj" />
     <ProjectReference Include="..\CleanArchitecture.RepositoryEFCore\CleanArchitecture.RepositoryEFCore.csproj" />
   </ItemGroup>
 

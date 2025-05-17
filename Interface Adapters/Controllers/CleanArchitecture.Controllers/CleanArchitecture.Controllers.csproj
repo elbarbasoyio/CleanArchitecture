@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Application Business Rules\CleanArchitecture.UseCasesPorts\CleanArchitecture.UseCasesPorts.csproj" />
-    <ProjectReference Include="..\CleanArchitecture.Presenters\CleanArchitecture.Presenters.csproj" />
+    <ProjectReference Include="..\..\..\Application Business Rules\CleanArchitecture.UseCasesPorts\CleanArchitecture.UseCasesPorts.csproj" />
+    <ProjectReference Include="..\..\Presenters\CleanArchitecture.Presenters\CleanArchitecture.Presenters.csproj" />
   </ItemGroup>
 
 </Project>

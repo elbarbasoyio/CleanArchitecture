@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Interface Adapters\CleanArchitecture.Controllers\CleanArchitecture.Controllers.csproj" />
-    <ProjectReference Include="..\..\Interface Adapters\CleanArchitecture.IoC\CleanArchitecture.IoC.csproj" />
+    <ProjectReference Include="..\..\..\Interface Adapters\Controllers\CleanArchitecture.Controllers\CleanArchitecture.Controllers.csproj" />
+    <ProjectReference Include="..\..\..\Interface Adapters\Gateways\CleanArchitecture.IoC\CleanArchitecture.IoC.csproj" />
   </ItemGroup>
 
 </Project>
