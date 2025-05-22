@@ -2,11 +2,6 @@
 using CleanArchitecture.Entities.Interfaces;
 using CleanArchitecture.Entities.POCOs;
 using CleanArchitecture.UseCasesPorts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchitecture.UseCases.CreateProduct
 {

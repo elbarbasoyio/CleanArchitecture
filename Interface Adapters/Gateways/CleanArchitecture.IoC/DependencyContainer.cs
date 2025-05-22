@@ -1,14 +1,8 @@
-﻿using Azure.Core;
-using CleanArchitecture.Presenters;
+﻿using CleanArchitecture.Presenters;
 using CleanArchitecture.RepositoryEFCore;
 using CleanArchitecture.UseCases;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchitecture.IoC
 {

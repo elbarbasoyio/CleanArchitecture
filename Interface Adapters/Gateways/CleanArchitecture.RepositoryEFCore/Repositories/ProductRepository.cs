@@ -1,11 +1,6 @@
 ﻿using CleanArchitecture.Entities.Interfaces;
 using CleanArchitecture.Entities.POCOs;
 using CleanArchitecture.RepositoryEFCore.DataContext;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchitecture.RepositoryEFCore.Repositories
 {

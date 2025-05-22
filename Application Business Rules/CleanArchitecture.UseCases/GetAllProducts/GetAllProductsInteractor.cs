@@ -1,10 +1,5 @@
 ﻿using CleanArchitecture.Entities.Interfaces;
 using CleanArchitecture.UseCasesPorts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchitecture.UseCases.GetAllProducts
 {
@@ -19,7 +14,7 @@ namespace CleanArchitecture.UseCases.GetAllProducts
         }
         public Task Handle()
         {
-            var products = _productRepository.GetAllProducts().Select(p => 
+            var products = _productRepository.GetAllProducts().Select(p =>
                 new DTOs.ProductDTO
                 {
                     Id = p.Id,
